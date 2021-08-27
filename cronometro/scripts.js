@@ -2,7 +2,9 @@ var [hour,minutes,seconds] = [0,0,0];
 const tempo = 1000; //1 second
 var cron;
 
-function start(){ cron = setInterval(timer,tempo);}
+function start(){ 
+    if(!(hour != 0 || minutes != 0 || seconds != 0)) cron = setInterval(timer,tempo);
+}
 
 function pause(){clearInterval(cron);}
 
