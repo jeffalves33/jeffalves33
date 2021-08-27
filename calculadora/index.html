@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Bootstrap faz uso de certos elementos HTML e propriedades CSS que 
+requerem o uso do HTML5 doctype-->
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculadora Online</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--com bootstrap-->
+        <div class="row">
+            <div class="col-12 col-lg-2">
+                <a id="jeff" href="https://jeffalves33.github.io/Portfolio/">Jeferson Alves</a>
+            </div>
+            <div class="col-12 col-lg-10">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg">Sobre Mim</div>
+                    <div class="col-12 col-sm-6 col-lg">
+                        <a id="jeff" href="../cronometro/index.html">Projetos</a>
+                    </div>
+                    <div class="col-12 col-sm-4 col-lg">Serviços</div>
+                    <div class="col-12 col-sm-4 col-lg">Blog</div>
+                    <div class="col-12 col-sm-4 col-lg">Contatos</div>
+                </div>
+            </div>
+        </div>
+        <!--sem bootstrap-->
+        <div id="secound">
+            <div id="name">Calculadora</div>
+            <div id="biggerBlock">
+                <div id="child-biggerBlock">
+                    <div id="txt">
+                        <div id="child-txt">
+                            <a id="result"></a>
+                        </div>
+                    </div>
+                    <div id="child-child-biggerBlock">
+                        <div id="row-button">
+                            <button onclick="insert('7')" class="button_calulator">7</button>
+                            <button onclick="insert('8')" class="button_calulator">8</button>
+                            <button onclick="insert('9')" class="button_calulator">9</button>
+                            <div id="child-row-button">
+                                <button onclick="clean()" class="button_calulator2" id="CE">CE</button>
+                                <button onclick="cleanLast()" class="button_calulator2" id="C">C</button>
+                            </div>
+                        </div>
+                        <div  id="row-button">
+                            <button onclick="insert('4')" class="button_calulator">4</button>
+                            <button onclick="insert('5')" class="button_calulator">5</button>
+                            <button onclick="insert('6')" class="button_calulator">6</button>
+                            <div id="child-row-button">
+                                <button onclick="insert('/')" class="button_calulator2">/</button>
+                                <button onclick="insert('*')" class="button_calulator2">*</button>
+                            </div>
+                        </div>
+                        <div  id="row-button">
+                            <button onclick="insert('1')" class="button_calulator">1</button>
+                            <button onclick="insert('2')" class="button_calulator">2</button>
+                            <button onclick="insert('3')" class="button_calulator">3</button>
+                            <div id="child-row-button">
+                                <button id="subtraction" onclick="insert('-')" class="button_calulator2">-</button>
+                                <button id="sum" onclick="insert('+')" class="button_calulator2">+</button>
+                            </div>
+                        </div>
+                        <div  id="row-button">
+                            <button id="zero" onclick="insert('0')" class="button_calulator">0</button>
+                            <button onclick="insert('.')" class="button_calulator">.</button>
+                            <div>
+                                <button id="equal" onclick="calcular()" class="button_calulator">=</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
