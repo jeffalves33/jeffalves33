@@ -1,0 +1,58 @@
+.body{
+    display: flex;
+    background-color: black;
+}
+
+.row{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#jeff{
+    text-decoration: none;
+    color: black;
+}
+
+.cronometro-funcoes{
+    text-align: center;
+    background-image: linear-gradient(360deg, rgb(39, 41, 20), rgb(242, 255, 127));
+    height: 95vh;
+    margin: auto;
+}
+
+.timer-title{
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+}
+.cronometro-funcoes-child{
+    background-color: rgba(192, 191, 191, 0.3);
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 300px;
+    height: 300px;
+    border: 5px #000 solid;
+    border-radius: 10px;
+}
+
+.timer-title{
+    font-size: xx-large;
+}
+.timer-number{
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 210px;
+    margin: auto;
+}
+.buttons{
+    padding-top: 40px;
+}
+#CronometroFuncoesC{
+    border: 1px #000 solid;
+}
+
+.result{
+    color: white;
+    padding-top: 20px;
+}
