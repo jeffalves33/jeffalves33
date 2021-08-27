@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Bootstrap faz uso de certos elementos HTML e propriedades CSS que 
+requerem o uso do HTML5 doctype-->
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cronometro Online</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!--com bootstrap-->
+        <div class="row">
+            <div class="col-12 col-lg-2">
+                    <a id="jeff" href="https://jeffalves33.github.io/Portfolio/">Jeferson Alves</a>
+            </div>
+            <div class="col-12 col-lg-10">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg">Sobre Mim</div>
+                    <div class="col-12 col-sm-6 col-lg"><a id="jeff" href="../calculadora/index.html">Projetos</a></div>
+                    <div class="col-12 col-sm-4 col-lg">Serviços</div>
+                    <div class="col-12 col-sm-4 col-lg">Blog</div>
+                    <div class="col-12 col-sm-4 col-lg">Contatos</div>
+                </div>
+            </div>
+        </div>
+        
+        <!--sem bootstrap-->
+        <div class="cronometro-funcoes">
+            <div >
+                <div class="timer-title">Timer</div>
+            </div>
+            <div class="cronometro-funcoes-child">
+                <div >
+                    <h1 id="h1-Timer" class="timer-number">00:00:00</h1>
+                </div>
+
+                <div class="buttons">
+                    <button onclick="start()" type="button" id="CronometroFuncoesC" 
+                    class="btn btn-success">start</button>
+                    <button onclick="pause()" type="button" id="CronometroFuncoesC" 
+                    class="btn btn-primary">pause</button>          
+                    <button onclick="stop()" type="button" id="CronometroFuncoesC" 
+                    class="btn btn-danger">stop</button>
+                </div>
+
+                <div class="result"><a id="result_antegior">Último resultado: 00:00:00</a></div>
+            </div>
+        </div>
+    </div>
+    
+    <header>   
+    </header>
+
+
+    <footer>  
+    </footer>
+        
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
