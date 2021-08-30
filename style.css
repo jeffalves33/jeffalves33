@@ -1,15 +1,16 @@
 body{
-    background-color: black;
+    background-color: rgb(99, 99, 99);
     padding-left: 0%;
     padding-right: 0%;
     text-align: center;
 }
 .container-fluid{
-    background-color: aliceblue;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
+#cabecalho{
+    background-color: black;
+}
 
 
 ul{
