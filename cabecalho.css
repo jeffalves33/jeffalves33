@@ -3,7 +3,7 @@ body{
     padding-left: 0%;
     padding-right: 0%;
     text-align: center;
-    background: url('/images/wallpaperOfficial.jpg');
+    background: url('images/wallpaperOfficial.jpg');
     background-size: cover;
     
     height: 100vh;
