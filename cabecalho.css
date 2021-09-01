@@ -1,8 +1,10 @@
 body{
-    background-color: rgb(99, 99, 99);
+    margin: 0;
     padding-left: 0%;
     padding-right: 0%;
     text-align: center;
+    background: url('/images/wallpaperOfficial.jpg');
+    background-size: cover;
     
     height: 100vh;
 }
@@ -21,11 +23,9 @@ body{
     display:inline-flex;
     width: 100%;
     height: 60px;
-    background-color: white;
-    color: black;
 }#cabecalho a{
     text-decoration: none;
-    color: black;
+    color: white;
 }#cabecalho a:hover{
     color: #00BDF5;
     transition: 0.5s;
@@ -121,5 +121,6 @@ a{
     #btn_mobile{
         background: none;
         cursor: pointer;
+        color: white;
     }
 }
