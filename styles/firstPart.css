@@ -1,4 +1,14 @@
 #gitTable, #gitLinks{
     margin-top: 10%;
-    width: 100vw;
+    display: contents;
+}#gitTable-child{
+    padding: 0%;
+    margin-top: 10%;
+}#gitTable a img{
+    padding: 0%;
+    width: 335px;
+}
+#gitLinks div{
+    padding: 0%;
+    margin-top: 2%;
 }
