@@ -1,35 +1,13 @@
-.body{
-    display: flex;
-    background-color: black;
-}
-
-.row{
-    background-color: aliceblue;
-    text-align: center;
-}
-
-#jeff{
-    text-decoration: none;
-    color: black;
-}
-
 .cronometro-funcoes{
+    display:flex;
     text-align: center;
-    background-image: linear-gradient(360deg, rgb(39, 41, 20), rgb(242, 255, 127));
-    height: 95vh;
-    margin: auto;
+    height: 91vh;
 }
 
-.timer-title{
-    margin: auto;
-    padding: 10px;
-    width: 300px;
-}
 .cronometro-funcoes-child{
-    background-color: rgba(192, 191, 191, 0.3);
     margin: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 100px;
+    background-color: rgba(192, 191, 191, 0.5);
     width: 300px;
     height: 300px;
     border: 5px #000 solid;
@@ -37,8 +15,12 @@
 }
 
 .timer-title{
+    margin: auto;
+    padding: 10px;
+    width: 300px;
     font-size: xx-large;
 }
+
 .timer-number{
     border: 1px black solid;
     border-radius: 10px;
@@ -55,4 +37,17 @@
 .result{
     color: white;
     padding-top: 20px;
+}
+
+@media(max-width: 823px){
+    button{
+        width: 79px;
+        height: 36px;
+        padding: 0%;
+        border: none;
+        font-size: small;
+    }
+    #CronometroFuncoesC{
+        padding-top: 2px;
+    }
 }
