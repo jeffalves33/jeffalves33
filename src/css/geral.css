@@ -1,0 +1,12 @@
+body{
+    text-align: center;   
+}
+
+#backgroundFirstPart{
+    background: url('/img/wallpaperOfficial.jpg');
+    background-size: cover;
+}
+.background{
+    height: calc(100vh);
+    padding-top: 16%;
+}

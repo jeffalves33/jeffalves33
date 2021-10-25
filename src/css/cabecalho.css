@@ -1,0 +1,24 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#navBar{
+    position: fixed;
+    width: 100vw;
+}
+
+#navbarNavAltMarkup{
+    position: absolute;
+    right: 12px;
+}
+
+#contactsBar{
+    left: -85px;
+}
+
+@media (max-width: 992px){
+    #navbarNavAltMarkup{
+        position: relative;
+    }
+}
