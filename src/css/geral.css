@@ -3,7 +3,7 @@ body{
 }
 
 #backgroundFirstPart{
-    background: url('/img/backgroundatt.jpg');
+    background: url(https://raw.githubusercontent.com/jeffalves33/jeffalves33/main/img/backgroundatt.jpg);
     background-size: cover;
 }
 .background{
