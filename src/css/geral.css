@@ -3,7 +3,7 @@ body{
 }
 
 #backgroundFirstPart{
-    background: url('/img/wallpaperOfficial.jpg');
+    background: url('/img/background.jpg');
     background-size: cover;
 }
 .background{
