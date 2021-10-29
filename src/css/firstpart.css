@@ -1,0 +1,18 @@
+#imgFirstPart{
+    text-align: center;
+}
+
+#txtFirstPart{
+    color: #979797;
+    border-left: 3px solid #979797;
+}
+#txtFirstPart h6{
+    color: #0D6EFD;
+}
+
+@media(max-width: 767px){
+    #txtFirstPart{
+        margin-top: 10px 10px 0 10px;
+        border: none;
+    } 
+}

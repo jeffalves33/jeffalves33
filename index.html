@@ -23,7 +23,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link href="src/css/geral.css" rel="stylesheet">
         <link href="src/css/cabecalho.css" rel="stylesheet">
-        <link href="/src/css/firstpart.css">
+        <link href="src/css/firstpart.css" rel="stylesheet">
     </head>
 
     <body>
@@ -57,8 +57,13 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Projetos</a>
                             <ul id="contactsBar" class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/calculadora/index.html">Calculadora</a></li>
-                                <li><a class="dropdown-item" href="/cronometro/index.html">Cronometro</a></li>
+                                <li><a class="dropdown-item" href="https://jeffalves33.github.io/curso-Dev-Web/Spotify/">Spotify</a></li>
+                                <li><a class="dropdown-item disabled" href="/calculadora/index.html">game - balões</a></li>
+                                <li><a class="dropdown-item" href="https://jeffalves33.github.io/curso-Dev-Web/calculadora/">Calculadora 2.0</a></li>
+                                <li><a class="dropdown-item" href="https://jeffalves33.github.io/curso-Dev-Web/TecBlog/">TecBlog</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="/calculadora/index.html">Calculadora 1.0</a></li>
+                                <li><a class="dropdown-item" href="/cronometro/index.html">Cronometro 1.0</a></li>
                             </ul>
                         </li>
                         <a class="nav-link disabled">Blog</a>
@@ -78,12 +83,25 @@
         </nav>
 
         <div id="backgroundFirstPart" class="container-fluid background">
-            <div class="img-circle">   
-                <img src="https://raw.githubusercontent.com/jeffalves33/jeffalves33/main/img/profileatt.jpeg" width="225" height="300">
-            </div>        
+            <div class="row">
+                <div id="imgFirstPart" class="col-md-6">   
+                    <img style="border-radius: 20px; box-shadow: inset 0 0 1em rgb(0, 0, 0), 0 0 0.5em #0D6EFD;;" src="https://raw.githubusercontent.com/jeffalves33/jeffalves33/main/img/profileatt.jpeg" width="225" height="300">
+                </div>
+
+                <div id="txtFirstPart" class="col-md-6">
+                    <p>Estudante de <em>Engenharia de Computação</em> pela UFES (<a href="https://www.ufes.br/" style="color: #979797;">Universidade
+                        Federal do Espírito Santo</a>).<br/><br/>Desenvolvedor Full-Stack nível estagiário. (buscando a primeira oportunidade).
+                    </p>
+                    <br/>
+                    <br/>
+                    <h6><i>Lei da compensação:</i></h6>
+                    <i>Qualquer resultado depende do quanto você entrega.</i><br/>
+                    <i>Seja elevado, busque altitude.</i>
+                </div>
+            </div>
         </div>
 
-        <div class="container-fluid background">
+        <div class="container-fluid background" style="text-align: center;">
             <div>
                 <a href="https://github.com/jeffalves33">
                 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeffalves33&layout=compact&langs_count=7&theme=dark"/>       
