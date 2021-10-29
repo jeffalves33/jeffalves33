@@ -2,6 +2,7 @@
     background: url(https://raw.githubusercontent.com/jeffalves33/jeffalves33/main/img/backgroundatt.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: right;
 }
 .background{
     height: calc(100vh);
