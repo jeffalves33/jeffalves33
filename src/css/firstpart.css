@@ -10,9 +10,25 @@
     color: #0D6EFD;
 }
 
+h6{
+    margin-top: 80px;
+}
+
+#textDev{
+    margin-top: 50px;
+}
+
 @media(max-width: 767px){
     #txtFirstPart{
         margin-top: 10px 10px 0 10px;
         border: none;
-    } 
+        text-align: center;
+    }
+    h6{
+        margin-top: 6px;
+    }
+
+    #textDev{
+        margin-top: 3px;
+    }
 }

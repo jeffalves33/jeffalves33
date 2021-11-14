@@ -20,5 +20,9 @@ p{
 @media (max-width: 992px){
     #navbarNavAltMarkup{
         position: relative;
+        text-align: center;
+    }
+    #contactsBar{
+        text-align: center;
     }
 }
