@@ -1,6 +1,6 @@
-<h2>PORTFOLIO: https://jeffalves33.github.io/jeffalves33/</h2>
+<h2 aling="center">PORTFOLIO: https://jeffalves33.github.io/jeffalves33/</h2>
 
-<h3> 👨🏻‍💻 About me</h3>
+<h3 aling="center"> 👨🏻‍💻 About me </h3>
 
 - 🤔 &nbsp; Learning more and more new technologies and developing software solutions and automations.
 - 🎓 &nbsp; Studying Computer Engineer at Federal University of Espírito Santo.
@@ -10,18 +10,73 @@
 
 ##
 
+<div aling="center">
+<h3 aling="center">🎖 Skills </h3>
+
+##
+
+  <div class="main">
+    <a href="#">
+      <img alt="logo-javascript" aling="center" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+    </a>
+    <a href="#">
+      <img alt="logo-node" aling="center" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+    </a>
+    <a href="#">
+      <img alt="logo-PHP" aling="center" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+    </a>
+    <a href="#">
+      <img alt="logo-laravel" aling="center" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+    </a>
+    <a href="#">
+      <img alt="logo-Docker" aling="center" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
+    </a>
+    <a href="#">
+      <img alt="logo-ubuntu" aling="center" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+    </a>
+  </div>
+
+  <div class="front">
+    <a href="#">
+      <img alt="logo-HTML" aling="center" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+    </a>
+    <a href="#">
+      <img alt="logo-CSS" aling="center" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+    </a>
+    <a href="#">
+      <img alt="logo-bootstrap" aling="center" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+    </a>
+  </div>
+
+  <div class="etc">
+    <a href="#">
+      <img alt="logo-python" aling="center" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
+    </a>
+    <a href="#">
+      <img alt="logo-c" aling="center" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
+    </a>
+    <a href="#">
+      <img alt="logo-c#" aling="center" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white">
+    </a>
+    <a href="#">
+      <img alt="logo-java" aling="center" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
+    </a>
+  </div>
+</div>
+##
+
  <div>
   <a href="https://jeffalves33.github.io/jeffalves33/">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jeffalves33&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeffalves33&layout=compact&langs_count=7&theme=dark"/>
 </div>
-
+  
 ##
 
 <div>
 
-  <p align="center"> texto que você quiser </p>
-  <p align="center">   <img alingn="center" src="https://profile-counter.glitch.me/jeffalves33/count.svg" /></p>
+  <p aling="center"> since 22/11/2021 </p>
+  <p aling="center">   <img alingn="center" src="https://profile-counter.glitch.me/SeuPerfildoGitHub/count.svg" /></p>
 
   ##
 
