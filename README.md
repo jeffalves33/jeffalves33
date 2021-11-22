@@ -10,10 +10,9 @@
 
 ##
 
-<div aling="center">
-<h3 aling="center">🎖 Skills </h3>
+<div style="aling: center">
+  <h3 >🎖 Skills </h3>
 
-##
 
   <div class="main">
     <a href="#">
@@ -36,6 +35,8 @@
     </a>
   </div>
 
+  <br/>
+
   <div class="front">
     <a href="#">
       <img alt="logo-HTML" aling="center" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
@@ -48,6 +49,8 @@
     </a>
   </div>
 
+  <br/>
+  
   <div class="etc">
     <a href="#">
       <img alt="logo-python" aling="center" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
@@ -63,6 +66,7 @@
     </a>
   </div>
 </div>
+
 ##
 
  <div>
