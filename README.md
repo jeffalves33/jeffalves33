@@ -15,23 +15,13 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jeffalves33&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeffalves33&layout=compact&langs_count=7&theme=dark"/>
 </div>
-  
-##
-  
-<div> 
-  <a href="https://api.whatsapp.com/send?phone=5527999242983&text=vim%20do%20GitHub" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
-  <a href="https://www.instagram.com/jeff.alvesl/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/jeffalves33/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
- <a href = "mailto:luiz_cleidi@hotmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
- 
-</div>
 
 ##
 
 <div>
 
   <p align="center"> texto que você quiser </p>
-  <p align="center">   <img alingn="center" src="https://profile-counter.glitch.me/SeuPerfildoGitHub/count.svg" /></p>
+  <p align="center">   <img alingn="center" src="https://profile-counter.glitch.me/jeffalves33/count.svg" /></p>
 
   ##
 
