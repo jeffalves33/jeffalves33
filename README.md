@@ -17,6 +17,13 @@
 
 <br/>
 
+##
+
+<p align="center"> since 22/11/2021 </p>
+<p align="center">   <img alingn="center" src="https://profile-counter.glitch.me/jeffalves33/count.svg" /></p>
+
+##
+
  <div>
   <a href="https://jeffalves33.github.io/jeffalves33/">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jeffalves33&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
