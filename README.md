@@ -50,7 +50,7 @@
   </div>
 
   <br/>
-  
+
   <div class="etc">
     <a href="#">
       <img alt="logo-python" aling="center" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
@@ -77,14 +77,10 @@
   
 ##
 
-<div>
+<p aling="center"> since 22/11/2021 </p>
+<p aling="center">   <img alingn="center" src="https://profile-counter.glitch.me/SeuPerfildoGitHub/count.svg" /></p>
 
-  <p aling="center"> since 22/11/2021 </p>
-  <p aling="center">   <img alingn="center" src="https://profile-counter.glitch.me/SeuPerfildoGitHub/count.svg" /></p>
-
-  ##
+##
 
   ![Snake animation](https://github.com/jeffalves33/jeffalves33/blob/output/github-contribution-grid-snake.svg)
 
-  
-</div>
