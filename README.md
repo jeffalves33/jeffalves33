@@ -8,20 +8,6 @@
 - 🌱 &nbsp; Focused on Web Development, Mobile and Automation using React/React Native, Node.js and Python.
 - ⚡ &nbsp; Fun Facts: I love the world of finance.
 
-<h3>🛠 Tech Stack</h3>
-
-- 💻 &nbsp; Python | C | Java
-- 🌐 &nbsp; HTML | CSS | JavaScript | Bootstrap | Node.js
-- 🛢 &nbsp; MySQL
-- 🔧 &nbsp; Git
-
-<br/>
-
-##
-
-<p align="center"> since 22/11/2021 </p>
-<p align="center">   <img alingn="center" src="https://profile-counter.glitch.me/jeffalves33/count.svg" /></p>
-
 ##
 
  <div>
@@ -39,10 +25,17 @@
  <a href = "mailto:luiz_cleidi@hotmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
  
 </div>
-<div> 
-  <a href="https://open.spotify.com/user/12182435698?si=aa95440d6ae746ed" target="_blank"><img src="https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white" target="_blank"></a>
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HJ9EG94D9ZCRW" target="_blank"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" target="_blank"></a>
-  <a href = "mailto:jeferson.l.souza@edu.ufes.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
- 
+
+##
+
+<div>
+
+  <p align="center"> texto que você quiser </p>
+  <p align="center">   <img alingn="center" src="https://profile-counter.glitch.me/SeuPerfildoGitHub/count.svg" /></p>
+
+  ##
+
   ![Snake animation](https://github.com/jeffalves33/jeffalves33/blob/output/github-contribution-grid-snake.svg)
+
+  
 </div>
