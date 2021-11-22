@@ -77,8 +77,8 @@
   
 ##
 
-<p aling="center"> since 22/11/2021 </p>
-<p aling="center">   <img alingn="center" src="https://profile-counter.glitch.me/SeuPerfildoGitHub/count.svg" /></p>
+<p >since 22/11/2021</p>
+<p aling="center"><img alingn="center" src="https://profile-counter.glitch.me/jeffalves33/count.svg"/></p>
 
 ##
 
