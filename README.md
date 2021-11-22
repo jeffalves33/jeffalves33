@@ -38,6 +38,9 @@
   <br/>
 
   <div class="front">
+  <a href="#">
+      <img alt="logo-react" aling="center" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+    </a>
     <a href="#">
       <img alt="logo-HTML" aling="center" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
     </a>
@@ -74,13 +77,8 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jeffalves33&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeffalves33&layout=compact&langs_count=7&theme=dark"/>
 </div>
-  
-##
-
-<p >since 22/11/2021</p>
-<p aling="center"><img alingn="center" src="https://profile-counter.glitch.me/jeffalves33/count.svg"/></p>
 
 ##
 
-  ![Snake animation](https://github.com/jeffalves33/jeffalves33/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/jeffalves33/jeffalves33/blob/output/github-contribution-grid-snake.svg)
 
