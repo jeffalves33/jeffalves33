@@ -4,7 +4,7 @@
 
 - 🤔 &nbsp; Learning more and more new technologies and developing software solutions and automations.
 - 🎓 &nbsp; Studying Computer Engineer at Federal University of Espírito Santo.
-- 💼 &nbsp; In search of the first internship opportunity.
+- 💼 &nbsp; XPInc | Software Engineer | Backend | .Net | C# | SQL Server.
 - 🌱 &nbsp; Focused on Web Development, Mobile and Automation using React/React Native, Node.js and Python.
 - ⚡ &nbsp; Fun Facts: I love the world of finance.
 
