@@ -22,13 +22,16 @@
       <img alt="logo-node" aling="center" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
     </a>
     <a href="#">
-      <img alt="logo-PHP" aling="center" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+      <img alt="logo-C#" aling="center" src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
     </a>
     <a href="#">
-      <img alt="logo-laravel" aling="center" src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+      <img alt="logo-AspNet" aling="center" src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white">
     </a>
     <a href="#">
       <img alt="logo-Docker" aling="center" src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white">
+    </a>
+    <a href="#">
+      <img alt="logo-SQLServer" aling="center" src="https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white">
     </a>
     <a href="#">
       <img alt="logo-ubuntu" aling="center" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
@@ -60,12 +63,6 @@
     </a>
     <a href="#">
       <img alt="logo-c" aling="center" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
-    </a>
-    <a href="#">
-      <img alt="logo-c#" aling="center" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white">
-    </a>
-    <a href="#">
-      <img alt="logo-java" aling="center" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
     </a>
   </div>
 </div>
