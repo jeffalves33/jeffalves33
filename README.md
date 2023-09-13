@@ -19,9 +19,6 @@
       <img alt="logo-javascript" aling="center" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
     </a>
     <a href="#">
-      <img alt="logo-node" aling="center" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
-    </a>
-    <a href="#">
       <img alt="logo-C#" aling="center" src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white">
     </a>
     <a href="#">
@@ -42,17 +39,17 @@
 
   <div class="front">
   <a href="#">
-      <img alt="logo-react" aling="center" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-    </a>
-    <a href="#">
-      <img alt="logo-HTML" aling="center" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
-    </a>
-    <a href="#">
-      <img alt="logo-CSS" aling="center" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
-    </a>
-    <a href="#">
-      <img alt="logo-bootstrap" aling="center" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
-    </a>
+    <img alt="logo-react" aling="center" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  </a>
+  <a href="#">
+    <img alt="logo-bootstrap" aling="center" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+  </a>
+  <a href="#">
+    <img alt="logo-dart" aling="center" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white">
+  </a>
+  <a href="#">
+    <img alt="logo-flutter" aling="center" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white">
+  </a>
   </div>
 
   <br/>
