@@ -1,0 +1,255 @@
+Skip to content
+DEV Community
+Search...
+Powered by  Algolia
+Log in
+Create account
+
+0
+Jump to Comments
+6
+Save
+
+Cover image for Como adicionar o Snake Game (jogo da cobrinha) no seu perfil do Github 🐍
+Henrique Lopes
+Henrique Lopes
+Posted on 4 de jan. de 2022
+
+
+12
+
+3
+Como adicionar o Snake Game (jogo da cobrinha) no seu perfil do Github 🐍
+#
+github
+Primeiramente devo deixar claro que esse artigo foi desenvolvido com base em vários outros artigos e reconstruído para deixar o mais claro possível a forma para inserir o Snake Game em seu perfil.
+
+Funcionamento. "Contributions in the last year":
+Basicamente o Snake game funciona realizando uma coleta da sua tabela de contribuições no Github. ele faz a renderização dessas informações e gera dois arquivos, um em formato gif e outro em svg. São esses arquivos que iremos utilizar para inserir a animação no perfil do Github.
+
+Repositorio do projeto a ser utilizado: Platane/snk
+
+Exemple
+
+Requisito. "Repositório base":
+Para que você possa prosseguir é necessário que você tenha o repositório do perfil (repositório com o mesmo nome de usuário), porém para gerar os arquivos também funciona em outro repositório.
+
+Actions. "Configuração inicial":
+Inicialmente é necessário que você acesse o seu repositório escolhido e vá em Settings.
+
+Configuração inicial
+
+No menu vertical ao lado esquerdo selecione o menu Actions e em seguida ative a permissão “Allow all actions”. Também é possível selecionar diretamente o repositório.
+
+Ative a permissão
+
+Actions. "Criando Gerador":
+Agora que temos o repositório configurado iremos adicionar o "script" para gerar dos arquivos. No repositório, vá em Actions.
+
+Criando o gerador
+
+Em seguida vamos utilizar “Simple workflow” apenas com o mínimo necessário para rodar o codigo.
+
+Configurando
+
+Agora é apenas alterar o nome do arquivo e colar o código da configuração com o seu usuário.
+
+Alterar jnome do arquivo
+
+alterando o username
+# Nome da Actions:  
+name: Snake Game
+
+# Controlador do tempo que sera feito a atualização dos arquivos.
+on:
+  schedule:
+      # Será atualizado a cada 5 horas.
+    - cron: "0 */5 * * *"
+
+# Permite executar na na lista de Actions (utilizado para testes de build).
+  workflow_dispatch:
+
+# Regras
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      - uses: actions/checkout@v2
+
+    # Repositorio que será utilizado para gerar os arquivos.
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: jeffalves33 #Seu usuario
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+      - run: git status
+
+      # Para as atualizações.
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          force: true
+
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          # the output branch we mentioned above
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+Retornando na opção Actions do repositório, clique em “Run workflow”:
+
+Repositorio
+
+Pasta dos arquivos:
+Em seu repositorio cliente em main e selecione a branch output:
+output
+
+E aqui estão os arquivos gerados que você pode utilizar como bem entender:
+
+Arquivos
+
+Codigo Github para utilização:
+
+![snake gif](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/blob/output/github-contribution-grid-snake.svg)
+
+👋 Before you go
+
+Do your career a favor. Join DEV. (The website you're on right now)
+
+It takes one minute and it's free.
+
+Get started
+
+Top comments (0)
+Subscribe
+pic
+Add to the discussion
+Code of Conduct • Report abuse
+profile
+Sentry
+PROMOTED
+
+Sentry image
+
+See why 4M developers consider Sentry, “not bad.”
+Fixing code doesn’t have to be the worst part of your day. Learn how Sentry can help.
+
+Learn more
+
+Read next
+jgdevelopments profile image
+Big O Short Explanation
+Julian Gaston - Jun 20
+
+zoltan_fehervari_52b16d1d profile image
+Let me explain the history of Cloud Computing. This is for the Tech People.
+Zoltan Fehervari - Jun 20
+
+cloudsege profile image
+EC2 Snapshot Management: How to get AWS EC2 Snapshot Information with Python
+Oluwasegun Adedigba - Jun 20
+
+kgothatsontsane profile image
+Postmortem Report: Load Balancer Outage
+Kgothatso Ntsane - Jun 20
+
+
+Henrique Lopes
+Follow
+"Não há razão alguma em usar a palavra “impossível” para descrever algo que claramente pode acontecer."
+JOINED
+5 de set. de 2021
+Trending on DEV Community 
+Domenico Tenace profile image
+7 Open Source Projects You Should Know - JavaScript Edition ✔️
+#opensource #github #javascript #programming
+Dhruv Agarwal profile image
+Write Less, Fix Never: The Art of Highly Reliable Code
+#developer #productivity #programming #career
+Lucas Lima do Nascimento profile image
+5 Reasons Why Your Side Projects Fail to Make Money And How to Avoid Them
+#beginners #webdev #career #learning
+DEV Community
+
+OpenAI
+
+How will ChatGPT change the way we code?
+We're excited to find out, and the DEV community is the perfect place to explore this together.
+
+Join the DEV community. It's free and only takes a minute.
+Stay up-to-date on the latest AI content.
+
+# Nome da Actions:  
+name: Snake Game
+
+# Controlador do tempo que sera feito a atualização dos arquivos.
+on:
+  schedule:
+      # Será atualizado a cada 5 horas.
+    - cron: "0 */5 * * *"
+
+# Permite executar na na lista de Actions (utilizado para testes de build).
+  workflow_dispatch:
+
+# Regras
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+      - uses: actions/checkout@v2
+
+    # Repositorio que será utilizado para gerar os arquivos.
+      - uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: nomeUsuario #Seu usuario
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
+
+      - run: git status
+
+      # Para as atualizações.
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          force: true
+
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          # the output branch we mentioned above
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+DEV Community — A constructive and inclusive social network for software developers. With you every step of your journey.
+
+Home
+Podcasts
+Videos
+Tags
+DEV Help
+Forem Shop
+Advertise on DEV
+DEV Challenges
+DEV Showcase
+About
+Contact
+Guides
+Software comparisons
+Code of Conduct
+Privacy Policy
+Terms of use
+Built on Forem — the open source software that powers DEV and other inclusive communities.
+
+Made with love and Ruby on Rails. DEV Community © 2016 - 2024.
