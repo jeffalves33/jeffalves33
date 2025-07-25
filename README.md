@@ -157,3 +157,5 @@ Me chamo Jeferson Alves, tenho 25 anos e sou natural do Espírito Santo. Atualme
   />
 
 </p>
+
+![snake gif](https://github.com/jeffalves33/jeffalves33/blob/output/github-snake-dark.svg)
